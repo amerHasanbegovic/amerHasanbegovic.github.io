@@ -53,8 +53,8 @@ class Home extends Component {
                 alt='Third slide'
               />
               <div className='carousel-caption d-md-block'>
-                <h3>bla bla</h3>
-                <p>bla bla bla</p>
+                <h3>Programming</h3>
+                <p>Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ class Home extends Component {
                 src='https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                 alt='Slide'
               />
-              <h3>Programming</h3>
+              <h3>Bootstrap</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -114,7 +114,7 @@ class Home extends Component {
                 src='https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                 alt='Slide'
               />
-              <h3>Bla bla</h3>
+              <h3>Programming</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -140,7 +140,7 @@ class Home extends Component {
               Open modal
             </button>
             </div>
-
+      
             <div
               className='modal fade'
               id='modelId'

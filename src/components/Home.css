@@ -28,6 +28,10 @@ img {
   transform: scale(1.05);
   transition: 0.3s;
 }
+.navbar-brand:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
 .col-md-4 h3, .col-md-4 p{
   font-family: "Thasadith", sans-serif;
   color: #000000

@@ -60,20 +60,18 @@ class Contact extends Component {
               <h2 className='mb-3 mt-3'>Leave your comment</h2>
               <form>
                 <div className='form-group'>
-                  <input type='text' className='form-control' placeholder="Name"/>
+                  <input name="name" type='text' className='form-control' placeholder="Name"/>
                   <small>Enter your name</small>
                 </div>
                 <div className='form-group'>
-                  <input type='email' className='form-control' placeholder="Email"/>
+                  <input name="email" type='email' className='form-control' placeholder="Email"/>
                   <small>Enter your email adress</small>
                 </div>
                 <div className='form-group'>
-                  <textarea type='text' className='form-control' placeholder="Comment"/>
+                  <textarea name="comment" type='text' className='form-control' placeholder="Comment"/>
                   <small>Leave your comment</small>
                 </div>
-                <button type='submit' className='btn'>
-                  Submit
-                </button>
+                <input type='submit' className='btn' value="Submit"/>
               </form>
             </div>
           </div>
